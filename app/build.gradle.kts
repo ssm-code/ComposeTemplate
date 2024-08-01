@@ -17,6 +17,10 @@ dependencies {
     implementation("androidx.compose.foundation:foundation:1.6.7")
     implementation("androidx.activity:activity-compose:1.9.0")
     implementation("androidx.compose.material:material:1.6.7")
+
+    // Material3 dependency
+    implementation ("androidx.compose.material3:material3:1.1.0")
+
     implementation("androidx.compose.material:material-icons-core:1.6.7")
     implementation("androidx.compose.material:material-icons-extended:1.6.7")
     implementation("androidx.navigation:navigation-compose:2.7.7")
@@ -78,7 +82,7 @@ android {
     compileSdk = 34
     defaultConfig {
         applicationId = "com.nattech.composetemplate"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
